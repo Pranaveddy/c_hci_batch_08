@@ -1,31 +1,14 @@
-{
-    "posts": [
-        {
-            "id": 1,
-            "title": "Post 1"
-        },
-        {
-            "id": 2,
-            "title": "Post 2"
-        },
-        {
-            "id": 3,
-            "title": "Post 3"
-        }
-    ],
-    "comments": [
-        {
-            "id": 1,
-            "body": "some comment",
-            "postId": 1
-        },
-        {
-            "id": 2,
-            "body": "some comment",
-            "postId": 1
-        }
-    ],
-    "profile": {
-        "name": "typicode"
-    }
-}
+# Initialize a new Git repository locally (if not already done)
+git init
+
+# Add your files to the Git repository
+git add db.json
+
+# Commit the changes
+git commit -m "Add db.json"
+
+# Add your GitHub repository as a remote
+git remote add origin <your-github-repo-url>
+
+# Push your changes to GitHub
+git push -u origin master
